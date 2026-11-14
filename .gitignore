@@ -1,0 +1,28 @@
+# Ambientes virtuais
+.venv/
+.venv*/
+venv/
+env/
+
+# Cache e artefatos locais
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Icon*
+
+# Dados locais
+data/*.csv
+data/*.parquet
+data/*.xlsx
+data/*.json
+
+# Credenciais e chaves
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
